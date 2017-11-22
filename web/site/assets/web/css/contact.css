@@ -1,0 +1,72 @@
+/*contact css*/
+.am-contact{margin:70px auto 100px;width:707px;padding:40px 55px;background-color:#2f3237;font-size:30px;}
+.am-contact .tit{color:#007bff;font-size:36px;font-weight:normal;}
+.am-contact li{margin-top:45px;}
+.am-contact .require-icon{display:inline-block;vertical-align:middle;margin-left:-30px;width:20px;color:#007bff;font-size:36px;font-weight:bold;}
+.am-contact .am-btn{line-height:35px;font-size:28px;font-weight:normal;}
+.am-contact .btm{text-align:center;}
+.am-contact .am-checkbox{margin-top:15px;}
+.am-info-text{margin:40px 30px 30px;line-height:40px;color:#333;font-size:22px;}
+
+/*airport css*/
+.am-airport{margin:60px auto 40px;max-width:1366px;}
+.am-airport .tips{font-size:26px;}
+.am-airport .tips p{margin-top:30px;margin-bottom:15px;}
+.am-airport .tips .tit{font-weight:bold;}
+.am-color-blue{color:#1887fb;}
+.am-airport-btn{padding:0 30px;height:52px;line-height:50px;background-color:#0f65f5;border-radius:8px;color:#fff;font-weight:bold;}
+.am-airport ul{font-size:0px;text-align:center;}
+.am-airport li{display:inline-block;padding-top:80px;padding-bottom:30px;width:19.7%;text-align:center;}
+.am-airport li img{width:229px;height:228px;border:1px solid #d3dae2;border-radius:100%;}
+.am-airport li p{margin-top:25px;font-size:30px;}
+
+/*about_us css*/
+.am-abount-banner{width:100%;min-width:1;}
+.am-about{margin:30px auto 0;max-width:1440px;min-width:1000px;}
+.am-about-info .tit{float:left;font-weight:bold;line-height:75px;}
+.am-about-info .tit-t{font-size:60px;}
+.am-about-info .tit-b{font-size:66px;}
+.am-about-info .info{position:relative;margin-left:320px;padding:30px 30px 20px 80px;border:6px solid #0870f2;font-size:30px;line-height:55px;}
+.am-about-info .line{position:absolute;background-color:#0870f2;}
+.am-about-info .line .dot{display:inline-block;height:100%;background-color:#202328;vertical-align:top;}
+.am-about-info .line1{top:20px;left:-30px;width:173px;height:2px;}
+.am-about-info .line2{top:49%;left:-230px;width:260px;height:3px;}
+.am-about-info .line2 .dot{width:3px;}
+.am-about-info .line2 .dot:nth-child(1){margin-left:3px;}
+.am-about-info .line2 .dot:nth-child(2){margin-left:5px;}
+.am-about-info .line2 .dot:nth-child(3){margin-left:7px;}
+.am-about-info .line3{bottom:0;left:-6px;width:6px;height:35px;background-color:#202328;}
+.am-about-info .line4{bottom:-6px;left:-6px;width:102px;height:6px;}
+.am-about-info .line4 .dot:nth-child(1){width:80px;}
+.am-about-info .line4 .dot:nth-child(2){margin-left:3px;width:4px;}
+.am-about-info .line4 .dot:nth-child(3){margin-left:8px;width:6px;}
+.am-about-info .line5{bottom:20px;right:-50px;width:280px;height:2px;}
+.am-about-info .line5 .dot{float:right;width:3px;}
+.am-about-info .line5 .dot:nth-child(1){margin-right:3px;}
+.am-about-info .line5 .dot:nth-child(2){margin-right:5px;}
+.am-about-info .line5 .dot:nth-child(3){margin-right:7px;}
+.am-about-list{margin-top:80px;text-align:center;}
+.am-about-list li{display:inline-block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.am-about-list .cont{padding:20px;border:6px solid #0870f2;font-size:32px;line-height:65px;text-align:left;}
+.am-about-list .line p{margin:120px 40px;width:120px;height:5px;background-color:#0870f2;}
+.am-about-list .cont .tag{color:#0870f2;font-size:71px;font-weight:bold;-webkit-transform:scaleY(1.2);transform:scaleY(1.2);}
+.am-about-list li.cont:nth-child(1) .tag{float:right;margin-top:-30px;}
+.am-about-list li.cont:nth-child(3){padding-top:84px;}
+.am-about-list li.cont:nth-child(3) .tag{float:right;margin-top:-30px;font-size:75px;}
+.am-about-list li.cont:nth-child(3) .tag strong{font-size:80px;vertical-align:-5px;}
+.am-about-list li.cont:nth-child(5) .tag{float:right;margin-top:-30px;font-size:72px;}
+
+@media screen and (max-width:1440px){
+	.am-airport{margin:70px 50px 40px;}
+	.am-about{margin:30px 5% 0;}
+	.am-about-info .tit-t{font-size:50px;}
+	.am-about-info .tit-b{font-size:60px;}
+	.am-about-info .info{font-size:25px;line-height:50px;}
+	.am-about-list .cont{font-size:28px;line-height:60px;border-width:4px;}
+	.am-about-list li.cont:nth-child(1) .tag{font-size:68px;}
+	.am-about-list .line p{margin:110px 25px;width:80px;height:3px;}
+	.am-about-list li.cont:nth-child(3) .tag{font-size:70px;}
+	.am-about-list li.cont:nth-child(5) .tag{font-size:68px;}
+	.am-airport li{padding-top:40px;padding-bottom:10px;}
+	.am-airport li img{width:150px;height:149px;}
+}
